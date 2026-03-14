@@ -4,6 +4,7 @@ main: pl.serweron.serweronLib.SerweronLib
 api-version: '${pluginAPI}'
 authors: [MasnyPen]
 website: serweron.pl
+load: STARTUP
 
 permissions:
   serweronlib.admin:
