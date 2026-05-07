@@ -1,5 +1,5 @@
+import dev.masnypen.masnyLib.utils.Response;
 import org.junit.jupiter.api.Test;
-import pl.serweron.serweronLib.utils.Response;
 
 import static org.junit.jupiter.api.Assertions.*;
 

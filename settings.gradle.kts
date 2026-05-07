@@ -1,1 +1,1 @@
-rootProject.name = "SerweronLib"
+rootProject.name = "MasnyLib"

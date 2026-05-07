@@ -1,4 +1,4 @@
-group = "pl.serweron"
+group = "dev.masnypen"
 version = "0.5.7"
 val apiVersion = "1.21"
 
@@ -19,6 +19,7 @@ val javadocJar by tasks.registering(Jar::class) {
     archiveClassifier.set("javadoc")
     from(tasks.javadoc)
 }
+
 
 publishing {
     publications {

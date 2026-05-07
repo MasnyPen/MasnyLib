@@ -1,9 +1,9 @@
-name: "SerweronLib"
+name: "MasnyLib"
 version: ${pluginVersion}
-main: pl.serweron.serweronLib.SerweronLib
+main: dev.masnypen.masnyLib.MasnyLib
 api-version: '${pluginAPI}'
 authors: [MasnyPen]
-website: serweron.pl
+website: masnypen.dev
 load: STARTUP
 
 permissions:

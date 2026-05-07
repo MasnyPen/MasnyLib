@@ -1,6 +1,6 @@
+import dev.masnypen.masnyLib.ui.colors.ChatColor;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import pl.serweron.serweronLib.ui.colors.ChatColor;
 
 public class ChatColorTest {
 

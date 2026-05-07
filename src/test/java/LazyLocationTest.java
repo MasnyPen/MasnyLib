@@ -1,8 +1,8 @@
+import dev.masnypen.masnyLib.utils.LazyLocation;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.junit.jupiter.api.Test;
-import pl.serweron.serweronLib.utils.LazyLocation;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
