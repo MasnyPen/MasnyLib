@@ -7,5 +7,5 @@ website: masnypen.dev
 load: STARTUP
 
 permissions:
-  serweronlib.admin:
+  masnylib.admin:
     default: op

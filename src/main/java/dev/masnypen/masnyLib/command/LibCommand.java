@@ -13,12 +13,12 @@ import dev.masnypen.masnyLib.command.command.BaseCommand;
 import dev.masnypen.masnyLib.command.context.CommandContext;
 
 @Aliases("lib")
-@Description("Serweron lib command")
-@Permission("serweronlib.admin")
+@Description("MasnyLib lib command")
+@Permission("masnylib.admin")
 public class LibCommand extends BaseCommand {
 
-    public LibCommand(MasnyLib serweronLib) {
-        super("serweronlib", serweronLib);
+    public LibCommand(MasnyLib masnyLib) {
+        super("masnylib", masnyLib);
     }
 
     @Override
@@ -27,7 +27,7 @@ public class LibCommand extends BaseCommand {
         Plugin economyManager = Bukkit.getServicesManager().getRegistration(IEconomyManager.class).getPlugin();
         Plugin rankManager = Bukkit.getServicesManager().getRegistration(IRankManager.class).getPlugin();
 
-        ctx.getSender().sendMessage(String.format("[%s] SerweronLib v%s Information", ctx.getPlugin().getPluginMeta().getName(), ctx.getPlugin().getPluginMeta().getVersion()));
+        ctx.getSender().sendMessage(String.format("[%s] MasnyLib v%s Information", ctx.getPlugin().getPluginMeta().getName(), ctx.getPlugin().getPluginMeta().getVersion()));
         ctx.getSender().sendMessage(String.format("[%s] Economy: %s", ctx.getPlugin().getPluginMeta().getName(), economyManager.getPluginMeta().getName()));
         ctx.getSender().sendMessage(String.format("[%s] Ranks: %s", ctx.getPlugin().getPluginMeta().getName(), rankManager.getPluginMeta().getName()));
     }

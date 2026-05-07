@@ -1,8 +1,8 @@
-## SerweronLib
-The SerweronLib project is a Java Gradle-based library providing a set of tools and APIs 
+## MasnyLib
+The MasnyLib project is a Java Gradle-based library providing a set of tools and APIs 
 designed for the development of Minecraft plugins.
 
-## 📦 How to Add `SerweronLib` to Your Plugin
+## 📦 How to Add `MasnyLib` to Your Plugin
 
 ### ✅ 1. Add the Repository
 
@@ -26,13 +26,13 @@ In the dependencies block, add:
 
 ```kotlin
 dependencies {
-    implementation("com.serweron:SerweronLib:1.0.0")
+    implementation("dev.masnypen:MasnyLib:1.0.0")
 }
 ```
 For snapshot builds:
 
 ```kotlin
 dependencies {
-    implementation("com.serweron:SerweronLib:1.0.0-SNAPSHOT")
+    implementation("dev.masnypen:MasnyLib:1.0.0-SNAPSHOT")
 }
 ```

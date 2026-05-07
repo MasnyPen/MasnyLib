@@ -24,7 +24,7 @@ public final class MasnyLib extends JavaPlugin {
             .consoleOnlyMessage("&eYou cannot execute this command from the console.")
             .playerOnlyMessage("&eYou cannot execute this command by player.");
         commandHandler.register(new LibCommand(this));
-        getLogger().info("SerweronLib is enabled");
+        getLogger().info("MasnyLib is enabled");
     }
 
     @Override
